@@ -1,4 +1,8 @@
-- cim: “Milyen szarvas?”; “Sapka”; “Egy gyerek”
-  link: "https://www.helikon.ro/bejegyzesek/milyen-szarvas-novellak"
-  kep_link: "assets/megjelenesek/szarvas.png"
-  kiadas: "Helikon, 2022. június"
+- cim: Milyen szarvas?; Sapka; Egy gyerek
+  link: https://www.helikon.ro/bejegyzesek/milyen-szarvas-novellak
+  kep_link: assets/megjelenesek/szarvas.png
+  kiadas: Helikon, 2022. június
+- cim: Nyomott ár
+  link: https://ligetmuhely.com/liget/mako-agnes-nyomott-ar/
+  kep_link: assets/megjelenesek/nyomott_ar.png
+  kiadas: Liget, 2022. június
