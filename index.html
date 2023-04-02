@@ -76,6 +76,26 @@
     </div>
 
 
+    
+    
+    <div class="row large-top-margin">
+
+        <div id="versek" class="col-12 title text-center">Versek</div>
+
+        {% for megjelenes in site.data.versek %}
+
+        {% include
+        megjelenes.html
+        cim=megjelenes.cim
+        link=megjelenes.link
+        kep_link=megjelenes.kep_link
+        kiadas=megjelenes.kiadas
+        %}
+
+        {% endfor %}
+
+    </div>
+    
 
 
 
