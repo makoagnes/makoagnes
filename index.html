@@ -46,7 +46,8 @@
             <div class="agi when-large">Makó Ágnes</div>
             <p class="bio">
                 2018 óta ír, több kreatív írás kurzuson és mentorprogramban tanult. 2019 óta rendszeresen publikálja
-                novelláit, verseit és meséit irodalmi folyóiratokban. Első novelláskötete 2023-ban jelenik meg. Budapesten él.
+                novelláit, verseit és meséit irodalmi folyóiratokban. Első novelláskötete 2023-ban jelenik meg.
+                Budapesten él.
             </p>
         </div>
     </div>
@@ -55,9 +56,9 @@
 
 
 
-    <div class="row large-top-margin">
+    <div id="prozak" class="title text-center large-top-margin">Prózák</div>
 
-        <div id="prozak" class="col-12 title text-center">Prózák</div>
+    <div class="row-megjelenesek large-top-margin">
 
         {% for megjelenes in site.data.prozak %}
 
@@ -74,11 +75,12 @@
     </div>
 
 
-    
-    
-    <div class="row large-top-margin">
 
-        <div id="versek" class="col-12 title text-center">Versek</div>
+
+
+    <div id="versek" class="title text-center large-top-margin">Versek</div>
+
+    <div class="row-megjelenesek large-top-margin">
 
         {% for megjelenes in site.data.versek %}
 
@@ -93,7 +95,7 @@
         {% endfor %}
 
     </div>
-    
+
 
 
 
