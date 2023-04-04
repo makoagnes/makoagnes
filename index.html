@@ -98,6 +98,30 @@
     </div>
 
 
+    
+    
+    
+    <div id="mesek" class="title text-center large-top-margin">Mesék</div>
+
+    <div class="row-megjelenesek large-top-margin">
+
+        {% for megjelenes in site.data.mesek %}
+
+        {% include
+        megjelenes.html
+        cim=megjelenes.cim
+        link=megjelenes.link
+        kep_link=megjelenes.kep_link
+        kiadas=megjelenes.kiadas
+        %}
+
+        {% endfor %}
+
+    </div>
+    
+    
+    
+    
 
 
     <div id="kapcsolat" class="row large-top-margin">
