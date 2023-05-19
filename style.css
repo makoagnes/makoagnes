@@ -238,3 +238,19 @@ body {
 .footer {
     font-size: .6em;
 }
+
+
+
+#jump-to-top {
+    visibility: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    background: rgba(255, 255, 255, 0);
+    opacity: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s, visibility .3s;
+}
