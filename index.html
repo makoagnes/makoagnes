@@ -14,11 +14,6 @@
 <body>
 
 
-    <button onclick="jumpToTop()" id="jump-to-top" title="Jump to top">
-        <img src="assets/jump-to-top.svg" width="40px" />
-    </button>
-
-
     <div class="col-12 when-small">
         <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
             <div class="bar1"></div>
@@ -101,34 +96,12 @@
 
 
 
-    <script>
+    <button onclick="jumpToTop()" id="jump-to-top" title="Jump to top">
+        <img src="assets/jump-to-top.svg" width="40px" />
+    </button>
 
-        let btnJumpToTop = document.getElementById("jump-to-top");
 
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                btnJumpToTop.style.visibility = "visible";
-                btnJumpToTop.style.opacity = 1;
-            } else {
-                btnJumpToTop.style.visibility = "hidden";
-                btnJumpToTop.style.opacity = 0;
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function jumpToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        function toggleMenu() {
-            document.getElementById("menu").classList.toggle("when-large");
-            document.getElementById("menu-icon").classList.toggle("change");
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 
