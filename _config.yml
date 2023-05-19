@@ -22,6 +22,11 @@ title: Makó Ágnes szerzői oldala
 domain: makoagnes.github.io
 url: https://makoagnes.github.io
 
+sections:
+  - prozak
+  - versek
+  - mesek
+
 # Build settings
 theme: minima
 plugins:

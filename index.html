@@ -56,12 +56,12 @@
 
 
 
-
-    <div id="prozak" class="title text-center large-top-margin">Prózák</div>
+    {% for section in site.sections %}
+    <div id="{{section}}" class="title text-center large-top-margin">{{site.data[section].title}}</div>
 
     <div class="row-megjelenesek large-top-margin">
 
-        {% for megjelenes in site.data.prozak %}
+        {% for megjelenes in site.data[section].entries %}
 
         {% include
         megjelenes.html
@@ -74,54 +74,9 @@
         {% endfor %}
 
     </div>
+    {% endfor %}
 
 
-
-
-
-    <div id="versek" class="title text-center large-top-margin">Versek</div>
-
-    <div class="row-megjelenesek large-top-margin">
-
-        {% for megjelenes in site.data.versek %}
-
-        {% include
-        megjelenes.html
-        cim=megjelenes.cim
-        link=megjelenes.link
-        kep_link=megjelenes.kep_link
-        kiadas=megjelenes.kiadas
-        %}
-
-        {% endfor %}
-
-    </div>
-
-
-    
-    
-    
-    <div id="mesek" class="title text-center large-top-margin">Mesék</div>
-
-    <div class="row-megjelenesek large-top-margin">
-
-        {% for megjelenes in site.data.mesek %}
-
-        {% include
-        megjelenes.html
-        cim=megjelenes.cim
-        link=megjelenes.link
-        kep_link=megjelenes.kep_link
-        kiadas=megjelenes.kiadas
-        %}
-
-        {% endfor %}
-
-    </div>
-    
-    
-    
-    
 
 
     <div id="kapcsolat" class="row large-top-margin">
