@@ -22,6 +22,27 @@ title: Makó Ágnes szerzői oldala
 domain: makoagnes.github.io
 url: https://makoagnes.github.io
 
+promo:
+  img: ./assets/megjelenesek/reszvetel_nem_onkentes.jpg
+  main_link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
+  text: Makó Ágnes első novelláskötete negyvenöt rövidprózát tartalmaz. A sötét humorú, abszurd elemeket sem
+        nélkülöző, időnként meghökkentő, máskor hátborzongató írásokból megtudhatjuk, mi jár egy bankrabló, egy
+        rockdobos vagy egy cirkószerelő fejében; mit üzenne a húsleves vagy a szójajoghurt a hűtőből; mit
+        válaszol a spamre Terike néni Balassagyarmatról, és mi történik, ha hatalmat adunk kutyák vagy baglyok
+        kezébe. Elgondolkodhatunk, vajon figyelünk-e arra, amit a gyerekünk próbál elmagyarázni nekünk, hogyan
+        kellene viselkednünk a Marson, és mit él át, akinek a klerek bevonják a számlapénzét. Kiderül, hogyan
+        állapíthatjuk meg a szembejövő férfiról, hogy erőszaktevő-e, és hogy régen tényleg minden jobb volt-e,
+        még akkor is, ha az a régen most van. És ez csak tizenkét példa a negyvenötből.
+  order_options:
+    - store: Fekete&nbsp;Sas&nbsp;Kiadó
+      link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
+    - store: Líra
+      link: https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/regenyek/a-reszvetel-nem-onkentes
+    - store: Libri
+      link: https://www.libri.hu/konyv/mako_agnes.a-reszvetel-nem-onkentes.html
+    - store: Bookline
+      link: https://bookline.hu/product/home.action?_v=Mako_Agnes_A_reszvetel_nem_onkentes&type=22&id=340706
+
 sections:
   - prozak
   - versek

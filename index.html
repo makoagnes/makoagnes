@@ -33,12 +33,47 @@
 
 
 
+    {% if site.promo and site.promo != nil %}
+    <div class="row large-bottom-margin">
+        <div class="col-2">&nbsp;</div>
+        <div class="col-4">
+            <a href="{{site.promo.main_link}}">
+                <img class="full-width" src="{{site.promo.img}}">
+            </a>
+        </div>
+        <div class="col-4">
+            <p class="bio slight-top-margin">
+                {{site.promo.text}}
+            </p>
+            <div class="text-center medium-top-margin bold">
+                Megrendelhető
+            </div>
+            <div class="book-order-box slight-top-margin">
+
+                {% for order in site.promo.order_options %}
+                <div class="font-1em">
+                    <a class="order-book" href={{order.link}}>
+                        {{order.store}}
+                    </a>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+        <div class="col-2">&nbsp;</div>
+    </div>
+    {% endif %}
+
+
+
+
+
     <div id="rolam" class="row">
         <div class="col-12 agi when-small">
             Makó Ágnes
         </div>
         <div class="col-8">
-            <img class="bio-photo" src="./assets/penkaracsony1.jpg">
+            <img class="full-width" src="./assets/penkaracsony1.jpg">
             <figcaption style="font-size: .5em; color: rgb(100, 100, 100);">Fotó: Székelyhidi Zsolt</figcaption>
         </div>
         <div class="col-4">
@@ -60,15 +95,13 @@
     <div class="row-megjelenesek large-top-margin">
 
         {% for megjelenes in site.data[section].entries %}
-
-        {% include
-        megjelenes.html
-        cim=megjelenes.cim
-        link=megjelenes.link
-        kep_link=megjelenes.kep_link
-        kiadas=megjelenes.kiadas
-        %}
-
+        <div class="text-center font-1em">
+            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                <div>{{megjelenes.cim}}</div>
+            </a>
+            <div>{{megjelenes.kiadas}}</div>
+        </div>
         {% endfor %}
 
     </div>

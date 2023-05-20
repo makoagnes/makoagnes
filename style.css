@@ -30,14 +30,14 @@ body {
     padding: 10px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     [class*="col-"] {
         padding: 25px;
     }
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .col-1 {
         width: 8.33%;
     }
@@ -94,13 +94,13 @@ body {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 960px) {
     .when-large {
         display: none;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .when-small {
         display: none;
     }
@@ -110,17 +110,44 @@ body {
 
 
 
+.slight-top-margin {
+    margin-top: 1em;
+}
+
+.medium-top-margin {
+    margin-top: 2em;
+}
 
 .large-top-margin {
     margin-top: 4em;
+}
+
+.large-bottom-margin {
+    margin-bottom: 4em;
+}
+
+.large-top-padding {
+    padding-top: 4em;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
+.no-text-justify {
+    text-justify: inherit;
+}
+
 .font-1em {
     font-size: 1em;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .title {
@@ -161,12 +188,47 @@ body {
 
 
 
+.book-order-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 1em;
+}
+
+.book-order-box>div {
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
+.order-book {
+    text-decoration: none;
+    color: white;
+    /* color: black; */
+    border: solid;
+    padding: .5em;
+    background-color: purple;
+    /* background-color: yellow; */
+    transition: background-color .5, color .5s;
+}
+
+.order-book:hover {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    /* background-color: rgb(198, 212, 0); */
+    transition: background-color .6s, color .6s;
+}
+
+
+
+
+
 
 .agi {
     font-size: 2em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .agi {
         font-size: 3em;
     }
@@ -181,7 +243,7 @@ body {
     line-height: 1.5em;
 }
 
-.bio-photo {
+.full-width {
     width: 100%;
 }
 
@@ -196,7 +258,7 @@ body {
     padding-right: 1em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .resz {
         display: inline;
     }
@@ -212,7 +274,7 @@ body {
     row-gap: 4em;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .row-megjelenesek {
         grid-template-columns: 50% 50%;
     }
@@ -230,7 +292,7 @@ body {
     width: 75%;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
     .megjelenes-kep {
         width: 40%;
     }
