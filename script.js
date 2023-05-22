@@ -1,3 +1,7 @@
+const minWidthForLargeView = 960
+
+
+
 function getNetWidth(element) {
     const computedStyle = getComputedStyle(element)
     return element.clientWidth - parseFloat(computedStyle.paddingLeft) - parseFloat(computedStyle.paddingRight)
@@ -73,22 +77,29 @@ function resizeFunction(baseId, tolerance = 0) {
     const [wB, hB] = [getNetWidth(text), getNetHeight(text)]
 
     if (img && text) {
-        if (hB > hA + tolerance) {
+        if (document.body.clientWidth >= minWidthForLargeView) {
+            if (hB > hA + tolerance) {
 
-            const wP = wL + wR
+                const wP = wL + wR
 
-            const factor = Math.min(hB / hA, 1 + (wP / wB))
+                const factor = Math.min(hB / hA, 1 + (wP / wB))
 
-            const wB_ = Math.floor(factor * wB)
-            const hB_ = Math.floor(hB / factor)
+                const wB_ = Math.floor(factor * wB)
+                const hB_ = Math.floor(hB / factor)
 
-            const wL_ = Math.floor(wL - (factor - 1) * wB / 2)
-            const wR_ = Math.floor(wR - (factor - 1) * wB / 2)
+                const wL_ = Math.floor(wL - (factor - 1) * wB / 2)
+                const wR_ = Math.floor(wR - (factor - 1) * wB / 2)
 
-            text.style.width = `${wB_}px`
-            text.style.height = `${hB_}px`
-            paddingLeft.style.width = `${wL_}px`
-            paddingRight.style.width = `${wR_}px`
+                text.style.width = `${wB_}px`
+                text.style.height = `${hB_}px`
+                paddingLeft.style.width = `${wL_}px`
+                paddingRight.style.width = `${wR_}px`
+            }
+        } else {
+            text.style.width = ''
+            text.style.height = ''
+            paddingLeft.style.width = ''
+            paddingRight.style.width = ''
         }
     }
 }
