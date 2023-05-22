@@ -109,7 +109,29 @@ function resizeFunction(baseId, tolerance = 0) {
 
 
 
+
+
 function toggleMenu() {
     document.getElementById("menu").classList.toggle("when-large");
     document.getElementById("menu-icon").classList.toggle("change");
+}
+
+
+
+
+
+
+
+const coll = document.getElementsByClassName("collapsible-toggler");
+
+for (let i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        const content = this.previousElementSibling;
+        if (content.style.display === "grid") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "grid";
+        }
+    });
 }

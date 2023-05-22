@@ -94,19 +94,6 @@ body {
 }
 
 
-@media only screen and (max-width: 960px) {
-    .when-large {
-        display: none;
-    }
-}
-
-@media only screen and (min-width: 960px) {
-    .when-small {
-        display: none;
-    }
-}
-
-
 
 
 
@@ -159,7 +146,7 @@ body {
 }
 
 .title {
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 
@@ -340,4 +327,66 @@ body {
     outline: none;
     cursor: pointer;
     transition: opacity .3s, visibility .3s;
+}
+
+
+
+
+
+.collapsible-toggler {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    font-family: 'monospace';
+    background-color: inherit;
+    padding: .25em;
+    margin-top: 2em;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 1.5em;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.collapsible-toggler:hover {
+    /* font-weight: bold; */
+}
+
+.active {
+    display: none;
+}
+
+
+.collapsible-toggler:after {
+    /* content: '[+] Az összes'; */
+    color: #555;
+}
+
+.active:after {
+    /* content: '[-] Kevesebb'; */
+    color: #888;
+    display: none;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible-content {
+    display: none;
+    overflow: hidden;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+    .when-large {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .when-small {
+        display: none;
+    }
 }

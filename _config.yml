@@ -26,6 +26,9 @@ image: assets/megjelenesek/reszvetel_nem_onkentes.jpg
 domain: makoagnes.github.io
 url: https://makoagnes.github.io
 
+entries_offset: 0
+entries_limit: 4
+
 promo:
   img: ./assets/megjelenesek/reszvetel_nem_onkentes.jpg
   main_link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/

@@ -107,10 +107,50 @@
 
 
     {% for section in site.sections %}
+
+
     <div id="{{section}}" class="title text-center large-top-margin">{{site.data[section].title}}</div>
 
-    <div class="row-megjelenesek large-top-margin">
 
+    <div class="row-megjelenesek large-top-margin when-small">
+
+        {% if site.data[section].expandable %}
+        {% assign show_offset = site.entries_offset %}
+        {% assign show_limit = site.entries_limit %}
+        {% else %}
+        {% assign show_offset = 0 %}
+        {% assign show_limit = site.data[section].entries.size %}
+        {% endif %}
+
+        {% for megjelenes in site.data[section].entries offset:show_offset limit:show_limit %}
+        <div class="text-center font-1em" id="{{megjelenes.id}}">
+            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                <div>{{megjelenes.cim}}</div>
+            </a>
+            <div>{{megjelenes.kiadas}}</div>
+        </div>
+        {% endfor %}
+    </div>
+    {% if site.data[section].expandable and site.data[section].entries.size > show_limit %}
+    <div class="row-megjelenesek large-top-margin collapsible-content when-small">
+        {% for megjelenes in site.data[section].entries offset:show_limit %}
+        <div class="text-center font-1em" id="{{megjelenes.id}}">
+            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                <div>{{megjelenes.cim}}</div>
+            </a>
+            <div>{{megjelenes.kiadas}}</div>
+        </div>
+        {% endfor %}
+    </div>
+    <button type="button" class="collapsible-toggler when-small">
+        <img src="assets/see-more.svg" width="20%" />
+    </button>
+    {% endif %}
+
+
+    <div class="row-megjelenesek large-top-margin when-large">
         {% for megjelenes in site.data[section].entries %}
         <div class="text-center font-1em" id="{{megjelenes.id}}">
             <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
@@ -120,8 +160,9 @@
             <div>{{megjelenes.kiadas}}</div>
         </div>
         {% endfor %}
-
     </div>
+
+
     {% endfor %}
 
 
