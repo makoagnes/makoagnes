@@ -224,19 +224,24 @@ body {
 .order-book {
     text-decoration: none;
     color: white;
-    /* color: black; */
-    border: solid;
+    font-weight: bold;
+    border: none;
     padding: .5em;
-    background-color: purple;
-    /* background-color: yellow; */
+    background-color: rgb(182, 0, 182);
     transition: background-color .5, color .5s;
+}
+
+@media only screen and (max-width: 959px) {
+    .order-book {
+        font-size: 125%;
+    }
 }
 
 .order-book:hover {
     text-decoration: none;
+    font-weight: bold;
     color: black;
     background-color: yellow;
-    /* background-color: rgb(198, 212, 0); */
     transition: background-color .6s, color .6s;
 }
 
