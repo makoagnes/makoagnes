@@ -150,6 +150,14 @@ body {
     font-weight: bold;
 }
 
+.full-width {
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+}
+
 .title {
     font-size: 2em;
 }
@@ -253,10 +261,6 @@ body {
     text-justify: inter-word;
     font-size: .9em;
     line-height: 1.5em;
-}
-
-.full-width {
-    width: 100%;
 }
 
 
