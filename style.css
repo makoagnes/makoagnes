@@ -188,6 +188,18 @@ body {
 
 
 
+.promo {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin: 1em;
+}
+
+.promo>div {
+    margin-bottom: 1em;
+    padding: 10px;
+}
+
 .book-order-box {
     display: flex;
     flex-wrap: wrap;

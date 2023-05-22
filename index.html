@@ -35,13 +35,13 @@
 
     {% if site.promo and site.promo != nil %}
     <div class="row large-bottom-margin">
-        <div class="col-2">&nbsp;</div>
-        <div class="col-4">
+        <div class="col-2" id="promo-padding-left">&nbsp;</div>
+        <div class="col-4" id="promo-img">
             <a href="{{site.promo.main_link}}">
                 <img class="full-width" src="{{site.promo.img}}">
             </a>
         </div>
-        <div class="col-4">
+        <div class="col-4" id="promo-text">
             <p class="bio slight-top-margin">
                 {{site.promo.text}}
             </p>
@@ -60,7 +60,7 @@
 
             </div>
         </div>
-        <div class="col-2">&nbsp;</div>
+        <div class="col-2" id="promo-padding-right">&nbsp;</div>
     </div>
     {% endif %}
 
