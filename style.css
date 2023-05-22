@@ -213,6 +213,7 @@ body {
     flex-wrap: wrap;
     margin: 0 auto;
     margin: 1em;
+    justify-content: center;
 }
 
 .book-order-box>div {
