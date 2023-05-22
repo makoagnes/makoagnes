@@ -1,38 +1,47 @@
 title: Versek
 entries:
 - cim: Nincs jobbra, balra
+  id: nincs-jobbra-balra
   link: https://ligetmuhely.com/liget/mako-agnes-nincs-jobbra-balra/
   kep_link: assets/megjelenesek/jobbra_balra.jpeg
   kiadas: Liget, 2023. április
 - cim: Felnőni
+  id: felnoni
   link: https://www.facebook.com/103857835157182/photos/a.106244928251806/324285286447768/
   kep_link: assets/megjelenesek/felnoni_.png
   kiadas: Szóbanforgó, 2022. május
 - cim: Az volt a terv
+  id: az-volt-a-terv
   link: https://ligetmuhely.com/liget/mako-agnes-az-volt-a-terv/
   kep_link: assets/megjelenesek/az_volt_a_terv.jpg
   kiadas: Liget, 2022. március
 - cim: Felköszöntetlenül
+  id: felkoszontetlenul
   link: https://ligetmuhely.com/liget/mako-agnes-felkoszontetlenul/
   kep_link: assets/megjelenesek/felkoszontetlenul.jpg
   kiadas: Liget, 2022. január
 - cim: Egyszerre; Zsíroldás
+  id: egyszerre--zsiroldas
   link: https://epa.oszk.hu/03700/03714/00024/pdf/EPA03714_parnasszus_2021_4_79-81.pdf
   kep_link: assets/megjelenesek/Parnasszus-2021-4.jpg
   kiadas: Parnasszus, 2021. december  
 - cim: Szén alapú
+  id: szen-alapu
   link: https://ligetmuhely.com/liget/mako-agnes-szen-alapu/
   kep_link: assets/megjelenesek/szenalapu.jpg
   kiadas: Liget, 2021. október
 - cim: Gyorsul, elmosódik
+  id: gyorsul-elmosodik
   link: https://ligetmuhely.com/liget/mako-agnes-gyorsul-elmosodik/
   kep_link: assets/megjelenesek/gyorsul_elmosodik.jpg
   kiadas: Liget, 2021. augusztus
 - cim: Hallhatatlan
+  id: hallhatatlan
   link: https://ligetmuhely.com/liget/mako-agnes-hallhatatlan/
   kep_link: assets/megjelenesek/hallhatatlan_.png
   kiadas: Liget, 2021. május
 - cim: Az ajtónk mögött
+  id: az-ajtonk-mogott
   link: https://ligetmuhely.com/liget/az-ajtonk-mogott/
   kep_link: assets/megjelenesek/ajtonk.jpg
   kiadas: Liget, 2020. október

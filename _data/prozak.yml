@@ -1,54 +1,67 @@
 title: Prózák
 entries:
 - cim: A falszakértő
+  id: a-falszakerto
   link: https://www.irodalomismeret.hu/index.php/linkek/454
   kep_link: assets/megjelenesek/fal.jpg
   kiadas: Irodalomismeret, 2022. december
 - cim: Koi; Cété; Szemüvegtok és szoftverhiba
+  id: koi--cete--szemuvegtok-es-szoftverhiba
   link: https://www.helikon.ro/bejegyzesek/koi-prozak
   kep_link: assets/megjelenesek/koi.jpg
   kiadas: Helikon, 2022. december
 - cim: A futam; Szilvásgombóc
+  id: a-futam--szilvasgomboc
   link: https://epa.oszk.hu/03300/03335/00156/pdf/EPA03335_pannon_tukor_2022_5_016-057.pdf#page=5
   kep_link: assets/megjelenesek/pannontukor2.jpg
   kiadas: Pannon Tükör, 2022. október
 - cim: Mimikri
+  id: mimikri
   link: https://ligetmuhely.com/liget/mako-agnes-mimikri/
   kep_link: assets/megjelenesek/mimikri.jpg
   kiadas: Liget, 2022. október
 - cim: Dömdömm dírapp; Önvédelem; Kerek
+  id: domdom-dirapp--onvedelem--kerek
   link: https://epa.oszk.hu/03400/03420/00069/pdf/EPA03420_szekelyfold_2022_09_046-050.pdf
   kep_link: assets/megjelenesek/szekelyfold_22szept.jpg
   kiadas: Székelyföld, 2022. szeptember
 - cim: Ami tegnap történt
+  id: ami-tegnap-tortent
   link: https://petoczandrasblog.blogspot.com/2022/09/szepiroi-kurzus-2022osz3-mako-agnes.html
   kep_link: assets/megjelenesek/tegnap_tortent.jpg
   kiadas: Petőcz András blogja, 2022. szeptember
 - cim: Milyen szarvas?; Sapka; Egy gyerek
+  id: milyen-szarvas--sapka--egy-gyerek
   link: https://www.helikon.ro/bejegyzesek/milyen-szarvas-novellak
   kep_link: assets/megjelenesek/szarvas.png
   kiadas: Helikon, 2022. június
 - cim: Nyomott ár
+  id: nyomott-ar
   link: https://ligetmuhely.com/liget/mako-agnes-nyomott-ar/
   kep_link: assets/megjelenesek/nyomott_ar.jpg
   kiadas: Liget, 2022. június
 - cim: Hernyó a másodikról
+  id: hernyo
   link: https://www.szofa.eu/iras/mako-agnes-hernyo-a-masodikrol
   kep_link: assets/megjelenesek/hernyo.jpg
   kiadas: Szófa, 2022. április
 - cim: Keressük; Kölcsönhatás
+  id: keressuk--kolcsonhatas
   link: https://epa.oszk.hu/03400/03420/00063/pdf/EPA03420_szekelyfold_2022_03_017-021.pdf
   kep_link: assets/megjelenesek/szekelyfold_22marc.jpg
   kiadas: Székelyföld, 2022. március
 - cim: Erőszaktételi szembejövés
+  id: eroszakteteli-szembejoves
   link: https://www.szofa.eu/iras/mako-agnes-eroszakteteli-szembejoves
   kep_link: assets/megjelenesek/eroszaktetel.png
   kiadas: Szófa, 2022. január
 - cim: Pezsgőbuborékok
+  id: pezsgobuborekok
   link: https://tiszatajonline.hu/irodalom/pezsgobuborekok/
   kep_link: assets/megjelenesek/pezsgo.jpg
   kiadas: Tiszatáj online, 2022. január
 - cim: Dupla forgás; Leleplezés
+  id: dupla-forgas--leleplezes
   link: https://epa.oszk.hu/03300/03335/00148/pdf/EPA03335_pannon_tukor_2021_3_024-026.pdf
   kep_link: assets/megjelenesek/pannontukor1.jpg
   kiadas: Pannon Tükör, 2021. május

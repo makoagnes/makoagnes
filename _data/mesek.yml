@@ -1,30 +1,37 @@
 title: Mesék
 entries:
 - cim: Marsa és az űrlény
+  id: marsa-es-az-urleny
   link: https://ligetmuhely.com/szitakoto/mako-agnes-marsa-es-az-urleny/
   kep_link: assets/megjelenesek/marsa.jpg
   kiadas: Szitakötő, 2023. március
 - cim: Az egysejtűek is utálnak takarítani
+  id: az-egysejtuek-is-utalnak-takaritani
   link: https://ligetmuhely.com/szitakoto/mako-agnes-az-egysejtuek-is-utalnak-takaritani/
   kep_link: assets/megjelenesek/amoba.jpg
   kiadas: Szitakötő, 2022. augusztus
 - cim: Odil álmatlansága
+  id: odil-almatlansaga
   link: https://ligetmuhely.com/szitakoto/mako-agnes-odil-almatlansaga/
   kep_link: assets/megjelenesek/odil.jpg
   kiadas: Szitakötő, 2021. december
 - cim: Szotyi, az űrutazó
+  id: szotyi-az-urutazo
   link: https://ligetmuhely.com/szitakoto/mako-agnes-szotyi-az-urutazo/
   kep_link: assets/megjelenesek/szotyi.jpg
   kiadas: Szitakötő, 2021. május
 - cim: A király és a nyugdíjas aranyhal
+  id: a-kiraly-es-a-nyugdijas-aranyhal
   link: https://ligetmuhely.com/szitakoto/a-kiraly-es-a-nyugdijas-aranyhal/
   kep_link: assets/megjelenesek/hal.jpg
   kiadas: Szitakötő, 2021. február
 - cim: Egy kis föld feletti kaland
+  id: egy-kis-fold-feletti-kaland
   link: https://ligetmuhely.com/szitakoto/egy-kis-fold-feletti-kaland/
   kep_link: assets/megjelenesek/foldalatti.jpg
   kiadas: Szitakötő, 2020. április
 - cim: A bunker
+  id: a-bunker
   link: https://ligetmuhely.com/szitakoto/a-bunker/
   kep_link: assets/megjelenesek/bunker.jpg
   kiadas: Szitakötő, 2020. február

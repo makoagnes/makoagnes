@@ -100,7 +100,7 @@
     <div class="row-megjelenesek large-top-margin">
 
         {% for megjelenes in site.data[section].entries %}
-        <div class="text-center font-1em">
+        <div class="text-center font-1em" id="{{megjelenes.id}}">
             <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
                 <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                 <div>{{megjelenes.cim}}</div>
