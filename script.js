@@ -1,5 +1,9 @@
 const minWidthForLargeView = 960
 
+const whatToKeepAtEqualHeight = [
+    { baseId: "promo", tolerance: 30 }
+];
+
 
 
 window.onload = function () {
@@ -55,10 +59,6 @@ function jumpToTop() {
 
 
 
-
-const whatToKeepAtEqualHeight = [
-    { baseId: "promo", tolerance: 50 }
-];
 
 function autoResize() {
     for (const { baseId, tolerance } of whatToKeepAtEqualHeight) {

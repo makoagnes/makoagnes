@@ -114,6 +114,10 @@ body {
     margin-bottom: 4em;
 }
 
+.slight-top-padding {
+    padding-top: 2em;
+}
+
 .large-top-padding {
     padding-top: 4em;
 }
@@ -255,6 +259,15 @@ body {
 
 
 
+
+
+.pre-wrap {
+    white-space: pre-wrap;
+}
+
+.normal-ws {
+    white-space: normal;
+}
 
 
 
