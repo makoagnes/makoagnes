@@ -2,6 +2,22 @@ const minWidthForLargeView = 960
 
 
 
+window.onload = function () {
+    autoResize()
+    autoAdjustNavBar()
+};
+window.onresize = function () {
+    autoResize()
+    autoAdjustNavBar()
+};
+window.onscroll = function () {
+    scrollFunction()
+};
+
+
+
+
+
 function getNetWidth(element) {
     const computedStyle = getComputedStyle(element)
     return element.clientWidth - parseFloat(computedStyle.paddingLeft) - parseFloat(computedStyle.paddingRight)
@@ -15,16 +31,10 @@ function getNetHeight(element) {
 
 
 
-
-
 let btnJumpToTop = document.getElementById("jump-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-    scrollFunction()
-};
-
 function scrollFunction() {
+    // When the user scrolls down 20px from the top of the document, show the button
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         btnJumpToTop.style.visibility = "visible";
         btnJumpToTop.style.opacity = 1;
@@ -50,17 +60,10 @@ const whatToKeepAtEqualHeight = [
     { baseId: "promo", tolerance: 50 }
 ];
 
-function onAction() {
+function autoResize() {
     for (const { baseId, tolerance } of whatToKeepAtEqualHeight) {
         resizeFunction(baseId, tolerance);
     }
-};
-
-window.onload = function () {
-    onAction();
-};
-window.onresize = function () {
-    onAction()
 };
 
 function resizeFunction(baseId, tolerance = 0) {
@@ -112,10 +115,18 @@ function resizeFunction(baseId, tolerance = 0) {
 
 
 function toggleMenu() {
-    document.getElementById("menu").classList.toggle("when-large");
+    document.getElementById("menu-container").classList.toggle("when-large");
     document.getElementById("menu-icon").classList.toggle("change");
 }
 
+
+
+function autoAdjustNavBar() {
+    const navbar = document.getElementById("menu-container");
+    const container = document.getElementById("main-content-container");
+    const padding = document.body.clientWidth >= minWidthForLargeView ? 25 : 10;
+    container.style.paddingTop = `${navbar.clientHeight + padding}px`
+}
 
 
 

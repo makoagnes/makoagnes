@@ -27,184 +27,191 @@
 <body>
 
 
-    <div class="col-12 when-small">
-        <div id="menu-icon" class="menu-icon" onclick="toggleMenu()">
+    <div class="navbar">
+
+        <div id="menu-icon" class="menu-icon when-small" onclick="toggleMenu()">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
-    </div>
 
-    <div id="menu" class="col-12 when-large" onclick="toggleMenu()">
-        <a class="resz" href="#rolam">Rólam</a>
-        <a class="resz" href="#antologiak">Antológiák</a>
-        <a class="resz" href="#prozak">Prózák</a>
-        <a class="resz" href="#versek">Versek</a>
-        <a class="resz" href="#mesek">Mesék</a>
-        <a class="resz" href="#kapcsolat">Kapcsolat</a>
-    </div>
-
-
-
-
-    {% if site.promo and site.promo != nil %}
-    <div class="row large-bottom-margin">
-        <div class="col-2" id="promo-padding-left">&nbsp;</div>
-        <div class="col-4" id="promo-img">
-            <a href="{{site.promo.main_link}}">
-                <img class="full-width" src="{{site.promo.img}}">
-            </a>
+        <div id="menu-container" class="when-large" onclick="toggleMenu()">
+            <a class="resz" href="#rolam">Rólam</a>
+            <a class="resz" href="#antologiak">Antológiák</a>
+            <a class="resz" href="#prozak">Prózák</a>
+            <a class="resz" href="#versek">Versek</a>
+            <a class="resz" href="#mesek">Mesék</a>
+            <a class="resz" href="#kapcsolat">Kapcsolat</a>
         </div>
-        <div class="col-4" id="promo-text">
-            <p class="bio slight-top-margin">
-                {{site.promo.text}}
-            </p>
-            <div class="text-center medium-top-margin bold">
-                Megrendelhető
-            </div>
-            <div class="book-order-box slight-top-margin">
 
-                {% for order in site.promo.order_options %}
-                <div class="font-1em">
-                    <a class="order-book" href={{order.link}}>
-                        {{order.store}}
-                    </a>
+    </div>
+
+
+
+    <div id="main-content-container">
+
+
+        {% if site.promo and site.promo != nil %}
+        <div class="row large-bottom-margin">
+            <div class="col-2" id="promo-padding-left">&nbsp;</div>
+            <div class="col-4" id="promo-img">
+                <a href="{{site.promo.main_link}}">
+                    <img class="full-width" src="{{site.promo.img}}">
+                </a>
+            </div>
+            <div class="col-4" id="promo-text">
+                <p class="bio slight-top-margin">
+                    {{site.promo.text}}
+                </p>
+                <div class="text-center medium-top-margin bold">
+                    Megrendelhető
                 </div>
-                {% endfor %}
+                <div class="book-order-box slight-top-margin">
 
+                    {% for order in site.promo.order_options %}
+                    <div class="font-1em">
+                        <a class="order-book" href={{order.link}}>
+                            {{order.store}}
+                        </a>
+                    </div>
+                    {% endfor %}
+
+                </div>
+                <div class="text-center large-top-margin bold">
+                    Dedikálás
+                </div>
+                <p class="text-center">
+                    2023. június 10., 17:00
+                </p>
+                <p class="text-center">
+                    Fekete Sas Kiadó
+                </p>
+                <p class="text-center">
+                    50-es pavilon a Vörösmarty téren (a Gerbeaud-nál)
+                </p>
             </div>
-            <div class="text-center large-top-margin bold">
-                Dedikálás
-            </div>
-            <p class="text-center">
-                2023. június 10., 17:00
-            </p>
-            <p class="text-center">
-                Fekete Sas Kiadó
-            </p>
-            <p class="text-center">
-                50-es pavilon a Vörösmarty téren (a Gerbeaud-nál)
-            </p>
+            <div class="col-2" id="promo-padding-right">&nbsp;</div>
         </div>
-        <div class="col-2" id="promo-padding-right">&nbsp;</div>
-    </div>
-    {% endif %}
-
-
-
-
-
-    <div id="rolam" class="row">
-        <div class="col-12 agi when-small">
-            Makó Ágnes
-        </div>
-        <div class="col-12">
-            <div class="col-8 float-left">
-                <img class="full-width" src="./assets/penkaracsony1.jpg">
-                <figcaption style="font-size: .5em; color: rgb(100, 100, 100);">Fotó: Székelyhidi Zsolt</figcaption>
-            </div>
-            <div class="agi when-large">Makó Ágnes</div>
-            <p class="bio">
-                2018-ban kezdett írni, több kreatív írás kurzuson és mentorprogramban tanult.
-                2019 óta rendszeresen publikálja novelláit, verseit és meséit irodalmi folyóiratokban.
-                Idáig többek között a <em>2000</em>, a <em>Helikon</em>, a <em>Liget</em>, a <em>Pannon Tükör</em> és a
-                <em>Parnasszus</em> közölte írásait.
-                <br />
-                <em>A részvétel nem önkéntes</em> c. első novelláskötete 2023 júniusában jelenik meg.
-                <br />
-                Budapesten él.
-            </p>
-        </div>
-    </div>
-
-
-
-
-    {% for section in site.sections %}
-
-
-    <div id="{{section}}" class="title text-center large-top-margin">{{site.data[section].title}}</div>
-
-
-    <div class="row-megjelenesek large-top-margin when-small">
-
-        {% if site.data[section].expandable %}
-        {% assign show_offset = site.entries_offset %}
-        {% assign show_limit = site.entries_limit %}
-        {% else %}
-        {% assign show_offset = 0 %}
-        {% assign show_limit = site.data[section].entries.size %}
         {% endif %}
 
-        {% for megjelenes in site.data[section].entries offset:show_offset limit:show_limit %}
-        <div class="text-center font-1em" id="{{megjelenes.id}}">
-            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                <div>{{megjelenes.cim}}</div>
-            </a>
-            <div>{{megjelenes.kiadas}}</div>
+
+
+
+
+        <div id="rolam" class="row">
+            <div class="col-12 agi when-small">
+                Makó Ágnes
+            </div>
+            <div class="col-12">
+                <div class="col-8 float-left">
+                    <img class="full-width" src="./assets/penkaracsony1.jpg">
+                    <figcaption style="font-size: .5em; color: rgb(100, 100, 100);">Fotó: Székelyhidi Zsolt</figcaption>
+                </div>
+                <div class="agi when-large">Makó Ágnes</div>
+                <p class="bio">
+                    2018-ban kezdett írni, több kreatív írás kurzuson és mentorprogramban tanult.
+                    2019 óta rendszeresen publikálja novelláit, verseit és meséit irodalmi folyóiratokban.
+                    Idáig többek között a <em>2000</em>, a <em>Helikon</em>, a <em>Liget</em>, a <em>Pannon Tükör</em>
+                    és a
+                    <em>Parnasszus</em> közölte írásait.
+                    <br />
+                    <em>A részvétel nem önkéntes</em> c. első novelláskötete 2023 júniusában jelenik meg.
+                    <br />
+                    Budapesten él.
+                </p>
+            </div>
         </div>
+
+
+
+
+        {% for section in site.sections %}
+
+
+        <div id="{{section}}" class="title text-center large-top-margin">{{site.data[section].title}}</div>
+
+
+        <div class="row-megjelenesek large-top-margin when-small">
+
+            {% if site.data[section].expandable %}
+            {% assign show_offset = site.entries_offset %}
+            {% assign show_limit = site.entries_limit %}
+            {% else %}
+            {% assign show_offset = 0 %}
+            {% assign show_limit = site.data[section].entries.size %}
+            {% endif %}
+
+            {% for megjelenes in site.data[section].entries offset:show_offset limit:show_limit %}
+            <div class="text-center font-1em" id="{{megjelenes.id}}">
+                <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                    <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                    <div>{{megjelenes.cim}}</div>
+                </a>
+                <div>{{megjelenes.kiadas}}</div>
+            </div>
+            {% endfor %}
+        </div>
+        {% if site.data[section].expandable and site.data[section].entries.size > show_limit %}
+        <div class="row-megjelenesek large-top-margin collapsible-content when-small">
+            {% for megjelenes in site.data[section].entries offset:show_limit %}
+            <div class="text-center font-1em" id="{{megjelenes.id}}">
+                <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                    <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                    <div>{{megjelenes.cim}}</div>
+                </a>
+                <div>{{megjelenes.kiadas}}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <button type="button" class="collapsible-toggler when-small">
+            <img src="assets/see-more.svg" width="20%" />
+        </button>
+        {% endif %}
+
+
+        <div class="row-megjelenesek large-top-margin when-large">
+            {% for megjelenes in site.data[section].entries %}
+            <div class="text-center font-1em" id="{{megjelenes.id}}">
+                <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
+                    <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
+                    <div>{{megjelenes.cim}}</div>
+                </a>
+                <div>{{megjelenes.kiadas}}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+
         {% endfor %}
-    </div>
-    {% if site.data[section].expandable and site.data[section].entries.size > show_limit %}
-    <div class="row-megjelenesek large-top-margin collapsible-content when-small">
-        {% for megjelenes in site.data[section].entries offset:show_limit %}
-        <div class="text-center font-1em" id="{{megjelenes.id}}">
-            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                <div>{{megjelenes.cim}}</div>
-            </a>
-            <div>{{megjelenes.kiadas}}</div>
+
+
+
+
+        <div id="kapcsolat" class="row large-top-margin">
+            <div class="col-12 title text-center">
+                Email
+            </div>
+            <div class="col-12 text-center">
+                mako_agnes [kukac] yahoo [pont] com
+            </div>
         </div>
-        {% endfor %}
-    </div>
-    <button type="button" class="collapsible-toggler when-small">
-        <img src="assets/see-more.svg" width="20%" />
-    </button>
-    {% endif %}
 
 
-    <div class="row-megjelenesek large-top-margin when-large">
-        {% for megjelenes in site.data[section].entries %}
-        <div class="text-center font-1em" id="{{megjelenes.id}}">
-            <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                <div>{{megjelenes.cim}}</div>
-            </a>
-            <div>{{megjelenes.kiadas}}</div>
+
+
+        <div class="row large-top-margin">
+            <div class="col-12 text-center footer">&copy;2023 Makó Ágnes</div>
         </div>
-        {% endfor %}
+
+
+
+
+        <button onclick="jumpToTop()" id="jump-to-top" title="Jump to top">
+            <img src="assets/jump-to-top.svg" width="45px" />
+        </button>
+
+
     </div>
-
-
-    {% endfor %}
-
-
-
-
-    <div id="kapcsolat" class="row large-top-margin">
-        <div class="col-12 title text-center">
-            Email
-        </div>
-        <div class="col-12 text-center">
-            mako_agnes [kukac] yahoo [pont] com
-        </div>
-    </div>
-
-
-
-
-    <div class="row large-top-margin">
-        <div class="col-12 text-center footer">&copy;2023 Makó Ágnes</div>
-    </div>
-
-
-
-
-    <button onclick="jumpToTop()" id="jump-to-top" title="Jump to top">
-        <img src="assets/jump-to-top.svg" width="45px" />
-    </button>
-
 
     <script src="script.js"></script>
 

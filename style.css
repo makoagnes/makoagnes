@@ -6,6 +6,7 @@
 :root {
     --default: rgba(50, 50, 50, 1);
     --background-color: rgb(251, 251, 251);
+    --background-color-with-transparency: rgb(251, 251, 251, .8);
 }
 
 html {
@@ -149,6 +150,26 @@ body {
     font-size: 2.5em;
 }
 
+
+
+
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    float: left;
+    background-color: var(--background-color-with-transparency);
+    z-index: 1;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 960px) {
+    .navbar {
+        padding: 25px;
+    }
+}
 
 
 
