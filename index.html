@@ -98,7 +98,7 @@
 
 
 
-        <div id="rolam" class="row slight-top-padding pre-wrap">
+        <div id="rolam" class="row slight-top-padding pre-wrap addressable">
             <div class="col-12 agi normal-ws when-small">
                 Makó Ágnes
             </div>
@@ -128,7 +128,7 @@
         {% for section in site.sections %}
 
 
-        <div id="{{section}}" class="title text-center large-top-margin">{{site.data[section].title}}</div>
+        <div id="{{section}}" class="title text-center large-top-margin addressable">{{site.data[section].title}}</div>
 
 
         <div class="row-megjelenesek large-top-margin when-small">
@@ -142,7 +142,7 @@
             {% endif %}
 
             {% for megjelenes in site.data[section].entries offset:show_offset limit:show_limit %}
-            <div class="text-center font-1em" id="{{megjelenes.id}}">
+            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
                 <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
                     <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                     <div>{{megjelenes.cim}}</div>
@@ -154,7 +154,7 @@
         {% if site.data[section].expandable and site.data[section].entries.size > show_limit %}
         <div class="row-megjelenesek large-top-margin collapsible-content when-small">
             {% for megjelenes in site.data[section].entries offset:show_limit %}
-            <div class="text-center font-1em" id="{{megjelenes.id}}">
+            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
                 <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
                     <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                     <div>{{megjelenes.cim}}</div>
@@ -171,7 +171,7 @@
 
         <div class="row-megjelenesek large-top-margin when-large">
             {% for megjelenes in site.data[section].entries %}
-            <div class="text-center font-1em" id="{{megjelenes.id}}">
+            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
                 <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
                     <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                     <div>{{megjelenes.cim}}</div>
@@ -187,7 +187,7 @@
 
 
 
-        <div id="kapcsolat" class="row large-top-margin">
+        <div id="kapcsolat" class="row large-top-margin addressable">
             <div class="col-12 title text-center">
                 Email
             </div>

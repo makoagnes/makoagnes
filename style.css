@@ -424,3 +424,9 @@ body {
         display: none;
     }
 }
+
+
+
+.addressable {
+    scroll-margin-top: 1.33em;
+}
