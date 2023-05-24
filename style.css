@@ -224,23 +224,24 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin: 1em;
+    margin: 1.33em;
     justify-content: center;
 }
 
 .book-order-box>div {
-    margin-bottom: 1em;
+    margin-bottom: 1.33em;
     padding: 10px;
 }
 
 .order-book {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     border: none;
-    padding: .5em;
-    background-color: rgb(182, 0, 182);
-    transition: background-color .5, color .5s;
+    padding: .67em;
+    background-color: yellow;
+    box-shadow: 0 0 0 2px #333, 8px 8px 0 0 #333;
+    transition: background-color .5, color .5s, box-shadow .1s;
 }
 
 @media only screen and (max-width: 959px) {
@@ -254,7 +255,8 @@ body {
     font-weight: bold;
     color: black;
     background-color: yellow;
-    transition: background-color .6s, color .6s;
+    box-shadow: 0 0 0 2px #333, 10px 10px 0 0 #333;
+    transition: background-color .6s, color .6s, box-shadow .15s;
 }
 
 
@@ -373,32 +375,20 @@ body {
     cursor: pointer;
     font-family: 'monospace';
     background-color: inherit;
-    padding: .25em;
+    padding: .5em;
     margin-top: 2em;
-    border: none;
     text-align: center;
+    box-shadow: 0 0 0 2px #333, 8px 8px 0 0 #333;
     outline: none;
     font-size: 1.5em;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .collapsible-toggler:hover {
-    /* font-weight: bold; */
+    background-color: yellow;
 }
 
 .active {
-    display: none;
-}
-
-
-.collapsible-toggler:after {
-    /* content: '[+] Az összes'; */
-    color: #555;
-}
-
-.active:after {
-    /* content: '[-] Kevesebb'; */
-    color: #888;
     display: none;
 }
 
