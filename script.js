@@ -13,6 +13,7 @@ window.onload = function () {
 window.onresize = function () {
     autoResize()
     autoAdjustNavBar()
+    resetMenu()
 };
 window.onscroll = function () {
     scrollFunction()
@@ -112,12 +113,17 @@ function resizeFunction(baseId, tolerance = 0) {
 
 
 
-
+function resetMenu() {
+    document.getElementById("menu-container").classList.add("when-large");
+    document.getElementById("menu-icon").classList.remove("change");
+}
 
 function toggleMenu() {
     document.getElementById("menu-container").classList.toggle("when-large");
     document.getElementById("menu-icon").classList.toggle("change");
 }
+
+
 
 
 
