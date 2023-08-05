@@ -1,6 +1,11 @@
 title: Versek
 expandable: true
 entries:
+- cim: Túlzott fókusz
+  id: tulzott-fokusz
+  link: https://ligetmuhely.com/liget/tulzott-fokusz/
+  kep_link: assets/megjelenesek/tulzott_fokusz.jpeg
+  kiadas: Liget, 2023. június
 - cim: Nincs jobbra, balra
   id: nincs-jobbra-balra
   link: https://ligetmuhely.com/liget/mako-agnes-nincs-jobbra-balra/
