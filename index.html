@@ -63,6 +63,12 @@
                 <p class="bio slight-top-margin">
                     {{site.promo.text}}
                 </p>
+                {% for praise in site.promo.praise %}
+                <div class="slight-top-margin bio">
+                    <p>„{{praise.quote}}”</p>
+                    <p><em>{{praise.by}}</em></p>
+                </div>
+                {% endfor %}
                 <div class="text-center medium-top-margin bold">
                     Megrendelhető
                 </div>
