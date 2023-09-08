@@ -32,14 +32,7 @@ entries_limit: 4
 promo:
   img: ./assets/megjelenesek/reszvetel_nem_onkentes.jpg
   main_link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
-  text: Makó Ágnes első novelláskötete negyvenöt rövidprózát tartalmaz. A sötét humorú, abszurd elemeket sem
-        nélkülöző, időnként meghökkentő, máskor hátborzongató írásokból megtudhatjuk, mi jár egy bankrabló, egy
-        rockdobos vagy egy cirkószerelő fejében; mit üzenne a húsleves vagy a szójajoghurt a hűtőből; mit
-        válaszol a spamre Terike néni Balassagyarmatról, és mi történik, ha hatalmat adunk kutyák vagy baglyok
-        kezébe. Elgondolkodhatunk, vajon figyelünk-e arra, amit a gyerekünk próbál elmagyarázni nekünk, hogyan
-        kellene viselkednünk a Marson, és mit él át, akinek a klerek bevonják a számlapénzét. Kiderül, hogyan
-        állapíthatjuk meg a szembejövő férfiról, hogy erőszaktevő-e, és hogy régen tényleg minden jobb volt-e,
-        még akkor is, ha az a régen most van. És ez csak tizenkét példa a negyvenötből.
+  text:
   praise:
     - quote: Hús-vér életek ütköznek ezekben a prózákban, hol tragikusan, hol komikusan, hol tragikomikusan. Az író stílusa precíz, mégis virtuóz. Higgadt, mégis szikrázó. Visszafogott, mégis izgalmas. Figurái tovább élnek bennünk, helyzeteit nem fogjuk elfelejteni. Vigyázat, száz százalék jóféle irodalom! A kockázatok és mellékhatások beláthatatlanok!
       by: Lackfi János
