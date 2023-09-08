@@ -60,13 +60,13 @@
                 </a>
             </div>
             <div class="col-4" id="promo-text">
-                <p class="bio slight-top-margin">
+                <p class="bio medium-top-margin">
                     {{site.promo.text}}
                 </p>
                 {% for praise in site.promo.praise %}
-                <div class="slight-top-margin bio">
+                <div class="bio slight-top-margin font-1em">
                     <p>„{{praise.quote}}”</p>
-                    <p><em>{{praise.by}}</em></p>
+                    <p>&mdash;<em>{{praise.by}}</em></p>
                 </div>
                 {% endfor %}
                 <div class="text-center medium-top-margin bold">
