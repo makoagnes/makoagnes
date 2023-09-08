@@ -301,7 +301,9 @@ body {
 }
 
 
-
+.justify-text {
+    text-align: justify;
+}
 
 .resz {
     display: block;
