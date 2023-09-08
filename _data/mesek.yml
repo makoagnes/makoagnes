@@ -1,6 +1,11 @@
 title: Mesék
 expandable: true
 entries:
+- cim: Az elvarázsolt körforgalom
+  id: elvarazsolt-korforgalom
+  link: https://ligetmuhely.com/szitakoto/mako-agnes-az-elvarazsolt-korforgalom/
+  kep_link: assets/megjelenesek/korforgalom.jpg
+  kiadas: Szitakötő, 2023. szeptember
 - cim: Marsa és az űrlény
   id: marsa-es-az-urleny
   link: https://ligetmuhely.com/szitakoto/mako-agnes-marsa-es-az-urleny/
