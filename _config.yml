@@ -40,6 +40,13 @@ promo:
         kellene viselkednünk a Marson, és mit él át, akinek a klerek bevonják a számlapénzét. Kiderül, hogyan
         állapíthatjuk meg a szembejövő férfiról, hogy erőszaktevő-e, és hogy régen tényleg minden jobb volt-e,
         még akkor is, ha az a régen most van. És ez csak tizenkét példa a negyvenötből.
+  praise:
+    - quote: Hús-vér életek ütköznek ezekben a prózákban, hol tragikusan, hol komikusan, hol tragikomikusan. Az író stílusa precíz, mégis virtuóz. Higgadt, mégis szikrázó. Visszafogott, mégis izgalmas. Figurái tovább élnek bennünk, helyzeteit nem fogjuk elfelejteni. Vigyázat, száz százalék jóféle irodalom! A kockázatok és mellékhatások beláthatatlanok!
+      by: Lackfi János
+    - quote: Az elsőre hétköznapinak tűnő beszélők egészen lehetetlen történetek szereplőivé válnak, máskor meg a hétköznapinak tetsző jeleneteken keresztül lepleződnek le a társadalmi »normák« és elvárások esetlegességei, és válnak nevetségessé a szorongató helyzetek.
+      by: Magyar Narancs
+    - quote: nyomasztóan komor – valóságból kölcsönzött – témát is találunk a máskülönben fergetegesen kacagtató kötetben
+      by: Népszava
   order_options:
     - store: Fekete&nbsp;Sas&nbsp;Kiadó
       link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
