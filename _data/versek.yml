@@ -4,12 +4,12 @@ entries:
 - cim: Gombok
   id: gombok
   link: https://ligetmuhely.com/liget/mako-agnes-gombok/
-  kep_link: assets/megjelenesek/gombok.jpeg
+  kep_link: assets/megjelenesek/gombok.jpg
   kiadas: Liget, 2023. december
 - cim: Ózonfürdő
   id: ozonfurdo
   link: https://ligetmuhely.com/liget/mako-agnes-ozonfurdo/
-  kep_link: assets/megjelenesek/ozonfurdo.jpeg
+  kep_link: assets/megjelenesek/ozonfurdo.jpg
   kiadas: Liget, 2023. október
 - cim: Túlzott fókusz
   id: tulzott-fokusz
