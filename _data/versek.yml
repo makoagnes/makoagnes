@@ -1,6 +1,16 @@
 title: Versek
 expandable: true
 entries:
+- cim: Gombok
+  id: gombok
+  link: https://ligetmuhely.com/liget/mako-agnes-gombok/
+  kep_link: assets/megjelenesek/gombok.jpeg
+  kiadas: Liget, 2023. december
+- cim: Ózonfürdő
+  id: ozonfurdo
+  link: https://ligetmuhely.com/liget/mako-agnes-ozonfurdo/
+  kep_link: assets/megjelenesek/ozonfurdo.jpeg
+  kiadas: Liget, 2023. október
 - cim: Túlzott fókusz
   id: tulzott-fokusz
   link: https://ligetmuhely.com/liget/tulzott-fokusz/
