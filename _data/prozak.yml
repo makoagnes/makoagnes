@@ -1,6 +1,16 @@
 title: Prózák
 expandable: true
 entries:
+- cim: Cetlik a hűtőn; Üdvözlöm legkedvesebb
+  id: cetlik
+  link: https://www.irodalmijelen.hu/2024-feb-15-1000/cetlik
+  kep_link: assets/megjelenesek/cetlik.jpg
+  kiadas: Irodalmi Jelen, 2024. február
+- cim: Hajsza a Kék gyémánt után (krimistaféta)
+  id: kek-gyemant
+  link: https://nepszava.hu/3218623_hajsza-a-kek-gyemant-utan-krimistafeta
+  kep_link: assets/megjelenesek/kek_gyemant.jpg
+  kiadas: Népszava, Nyitott mondat, 2023. december
 - cim: A banya levelei; Bolha és Brúnó; Hátbalövés első óra előtt
   id: banya-levelei
   link: https://www.helikon.ro/bejegyzesek/a-banya-levelei-rovidprozak
