@@ -1,6 +1,11 @@
 title: Prózák
 expandable: true
 entries:
+- cim: Csak úgy
+  id: csakugy
+  link: https://ligetmuhely.com/liget/mako-agnes-csak-ugy/
+  kep_link: assets/megjelenesek/csakugy.jpg
+  kiadas: Irodalmi Jelen, 2024. április
 - cim: Cetlik a hűtőn; Üdvözlöm legkedvesebb
   id: cetlik
   link: https://www.irodalmijelen.hu/2024-feb-15-1000/cetlik
