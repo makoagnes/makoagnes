@@ -1,8 +1,23 @@
 title: Versek
 expandable: true
 entries:
+- cim: Nemet Mondani Tudók; Mentőmellényben
+  id: nem_mentomelleny
+  link: https://www.szifonline.hu/kolteszet/2873-mako-agnes-versei-2024-03-23
+  kep_link: assets/megjelenesek/mentomelleny.jpg
+  kiadas: SZIFONline, 2024. március
+- cim: Belekap a szél; Katt
+  id: belekap_katt
+  link: https://nepszava.hu/3227706_mako-agnes-versei
+  kep_link: assets/megjelenesek/belekap_katt.jpg
+  kiadas: Népszava, Nyitott mondat, 2024. március
+- cim: Kipattannánk
+  id: kipattanank
+  link: https://apokrifonline.com/2024/03/07/mako-agnes-kipattannank-online-megjelenes/
+  kep_link: assets/megjelenesek/kipattanank.jpg
+  kiadas: Apokrif Online, 2024. március
 - cim: Sorsjegy; Remix
-  id: sorsjegy
+  id: sorsjegy_remix
   link: https://nepszava.hu/3222854_mako-agnes-versei
   kep_link: assets/megjelenesek/sorsjegy.jpg
   kiadas: Népszava, Nyitott mondat, 2024. január
