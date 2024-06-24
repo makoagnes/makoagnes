@@ -32,7 +32,8 @@ entries_limit: 4
 promo:
   img: ./assets/megjelenesek/lobogni_fog.jpg
   main_link: https://irokboltja.hu/konyv/lobogni-fog/
-  color: #d80000
+  color: red
+  colorHEX: #d80000
   text:
   praise:
     - quote: Makó Ágnes hétköznapi elemekből építi fel nagyon nem hétköznapi verseit. Gyakran kis történeteket, szinte kerek balladákat tesz elénk. Van itt párkapcsolat, van oxigénpalack, halál, háború, szülés. Magabiztos, erős hang ez, sok-sok meglepetéssel!
