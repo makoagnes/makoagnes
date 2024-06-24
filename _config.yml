@@ -21,7 +21,7 @@
 title: Makó Ágnes szerzői oldala
 description: Prózák, versek, mesék és egyéb válogatott megjelenések
 url_website: https://makoagnes.com
-image: assets/megjelenesek/reszvetel_nem_onkentes.jpg
+image: assets/megjelenesek/lobogni_fog.jpg
 
 domain: makoagnes.github.io
 url: https://makoagnes.github.io
@@ -30,25 +30,22 @@ entries_offset: 0
 entries_limit: 4
 
 promo:
-  img: ./assets/megjelenesek/reszvetel_nem_onkentes.jpg
-  main_link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
+  img: ./assets/megjelenesek/lobogni_fog.jpg
+  main_link: https://irokboltja.hu/konyv/lobogni-fog/
+  color: #d80000
   text:
   praise:
-    - quote: Hús-vér életek ütköznek ezekben a prózákban, hol tragikusan, hol komikusan, hol tragikomikusan. Az író stílusa precíz, mégis virtuóz. Higgadt, mégis szikrázó. Visszafogott, mégis izgalmas. Figurái tovább élnek bennünk, helyzeteit nem fogjuk elfelejteni. Vigyázat, száz százalék jóféle irodalom! A kockázatok és mellékhatások beláthatatlanok!
-      by: Lackfi János
-    - quote: Az elsőre hétköznapinak tűnő beszélők egészen lehetetlen történetek szereplőivé válnak, máskor meg a hétköznapinak tetsző jeleneteken keresztül lepleződnek le a társadalmi »normák« és elvárások esetlegességei, és válnak nevetségessé a szorongató helyzetek.
-      by: Magyar Narancs
-    - quote: nyomasztóan komor – valóságból kölcsönzött – témát is találunk a máskülönben fergetegesen kacagtató kötetben
-      by: Népszava
+    - quote: Makó Ágnes hétköznapi elemekből építi fel nagyon nem hétköznapi verseit. Gyakran kis történeteket, szinte kerek balladákat tesz elénk. Van itt párkapcsolat, van oxigénpalack, halál, háború, szülés. Magabiztos, erős hang ez, sok-sok meglepetéssel!
+      by: Nádasdy Ádám
   order_options:
-    - store: Fekete&nbsp;Sas&nbsp;Kiadó
-      link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
+    - store: Írók Boltja
+      link: https://irokboltja.hu/konyv/lobogni-fog/
     - store: Líra
-      link: https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/regenyek/a-reszvetel-nem-onkentes
+      link: https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/vers-drama/lobogni-fog
     - store: Libri
-      link: https://www.libri.hu/konyv/mako_agnes.a-reszvetel-nem-onkentes.html
+      link: https://www.libri.hu/konyv/mako_agnes.lobogni-fog.html
     - store: Bookline
-      link: https://bookline.hu/product/home.action?_v=Mako_Agnes_A_reszvetel_nem_onkentes&type=22&id=340706
+      link: https://bookline.hu/product/home.action?_v=Mako_Agnes_Lobogni_fog&type=22&id=348379
 
 sections:
   - antologiak
