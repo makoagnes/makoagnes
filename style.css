@@ -247,7 +247,6 @@ body {
     font-weight: bold;
     border: none;
     padding: .67em;
-    background-color: yellow;
     box-shadow: 0 0 0 2px #333, 8px 8px 0 0 #333;
     transition: background-color .5, color .5s, box-shadow .1s;
 }
