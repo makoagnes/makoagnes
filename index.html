@@ -22,6 +22,15 @@
 
     {% include google_analytics.html %}
 
+    <style>
+        .order-book {
+            background: {{site.promo.color}}
+        }
+        .order-book:hover {
+            
+        }
+    </style>
+
 </head>
 
 <body>
@@ -76,7 +85,11 @@
 
                     {% for order in site.promo.order_options %}
                     <div class="font-1em">
-                        <a class="order-book" href={{order.link}}>
+                        <a
+                            class="order-book"
+                            href={{order.link}}
+                            style="background: {{site.promo.color}};"
+                        >
                             {{order.store}}
                         </a>
                     </div>
