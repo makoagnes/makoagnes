@@ -261,7 +261,6 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: black;
-    background-color: yellow;
     box-shadow: 0 0 0 2px #333, 10px 10px 0 0 #333;
     transition: background-color .6s, color .6s, box-shadow .15s;
 }
