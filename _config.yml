@@ -32,7 +32,7 @@ entries_limit: 4
 promo:
   img: ./assets/megjelenesek/lobogni_fog.jpg
   main_link: https://irokboltja.hu/konyv/lobogni-fog/
-  color: red
+  color: rgb(216,0,0)
   colorHEX: #d80000
   text:
   praise:
