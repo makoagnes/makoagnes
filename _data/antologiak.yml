@@ -3,7 +3,7 @@ expandable: false
 entries:
 - cim: PENdrive antológia
   id: pendrive
-  link:
+  link: https://parnasszus.hu/
   kep_link: assets/megjelenesek/pendrive_antologia.jpg
   kiadas: Parnasszus, 2024. június
 - cim: Körkép 2023
