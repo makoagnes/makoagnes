@@ -48,10 +48,12 @@ promo:
       link: https://bookline.hu/product/home.action?_v=Mako_Agnes_Lobogni_fog&type=22&id=348379
 
 sections:
+  - kotetek
   - antologiak
   - prozak
   - versek
   - mesek
+  - sajto
 
 # Build settings
 theme: minima
