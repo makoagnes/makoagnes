@@ -1,6 +1,11 @@
 title: Antológiák
 expandable: false
 entries:
+- cim: PENdrive antológia
+  id: pendrive
+  link:
+  kep_link: assets/megjelenesek/pendrive_antologia.jpg
+  kiadas: Parnasszus, 2024. június
 - cim: Körkép 2023
   id: korkep-2023
   link: https://magveto.hu/index.php?action=konyv&id=139506378
