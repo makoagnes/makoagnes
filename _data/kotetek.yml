@@ -1,0 +1,13 @@
+title: Kötetek
+expandable: false
+entries:
+- cim: Lobogni fog
+  id: lobogni_fog
+  link: https://irokboltja.hu/konyv/lobogni-fog/
+  kep_link: assets/megjelenesek/lobogni_fog.jpg
+  kiadas: Parnasszus, 2024. június
+- cim: A részvétel nem önkéntes
+  id: reszvetel_nem_onkentes
+  link: https://feketesas.hu/konyv/a-reszvetel-nem-onkentes/
+  kep_link: assets/megjelenesek/reszvetel_nem_onkentes.jpg
+  kiadas: Fekete Sas, 2023. június
