@@ -155,7 +155,7 @@
                     <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                     <div>{{megjelenes.cim}}</div>
                 </a>
-                <div>BATYU {{megjelenes.kiadas}}</div>
+                <div>{{megjelenes.kiadas}}</div>
             </div>
             {% endfor %}
         </div>
@@ -185,8 +185,15 @@
                     <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
                     <div>{{megjelenes.cim}}</div>
                 </a>
+                <div>{{megjelenes.kiadas}}</div>
                 {% endif %}
-                <div>BATYU {{megjelenes.kiadas}}</div>
+                {% if megjelenes.embed %}
+                <div class="embed-container">
+                    <iframe src={{megjelenes.embed}}></iframe>
+                </div>
+                <div class="megjelenes-link">{{megjelenes.cim}}</div>
+                <div>{{megjelenes.kiadas}}</div>
+                {% endif %}
             </div>
             {% endfor %}
         </div>
