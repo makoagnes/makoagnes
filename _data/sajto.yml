@@ -1,7 +1,7 @@
 title: Sajtó
 expandable: false
 entries:
-- cim: Makó Ágnes: A részvétel nem önkéntes (kritika)
+- cim: Makó Ágnes&#58; A részvétel nem önkéntes (kritika)
   id: reszvetel_kritika
   link: https://magyarnarancs.hu/visszhang/mako-agnes-a-reszvetel-nem-onkentes-261094
   kep_link: assets/megjelenesek/magyarnarancs_logo.png
@@ -11,7 +11,11 @@ entries:
   link: https://nepszava.hu/3204758_nem-kedveli-a-rizsazast-mako-agnessel-a-reszvetel-onkentessegerol
   kep_link: assets/megjelenesek/nepszava_interju.jpg
   kiadas: Népszava, Nyitott mondat, 2023. augusztus
-- cim: Felnőni
+- cim: A részvétel nem önkéntes (könyvbemutató)
+  id: konyvbemutato_video
+  embed: https://www.youtube.com/embed/kao2pVAKj_s
+  kiadas: Írók Boltja, 2023
+- cim: Felnőni (versfelolvasás)
   id: felnoni_video
-  embed_link: https://www.youtube.com/watch?v=e5pZUTrUsx8
-  kiadas: Parnasszus, 2024. június
+  embed: https://www.youtube.com/embed/e5pZUTrUsx8
+  kiadas: PEN karácsony, 2022
