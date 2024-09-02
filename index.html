@@ -150,45 +150,13 @@
             {% endif %}
 
             {% for megjelenes in site.data[section].entries offset:show_offset limit:show_limit %}
-            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
-                <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
-                    {% if megjelenes.link %}
-                    <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                        <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                        <div>{{megjelenes.cim}}</div>
-                    </a>
-                    <div>{{megjelenes.kiadas}}</div>
-                    {% endif %}
-                    {% if megjelenes.embed %}
-                    <div class="embed-container">
-                        <iframe src={{megjelenes.embed}} allowfullscreen></iframe>
-                    </div>
-                    <div class="megjelenes-link">{{megjelenes.cim}}</div>
-                    <div>{{megjelenes.kiadas}}</div>
-                    {% endif %}
-                </div>
-            </div>
+            {% include megjelenes.html megjelenes=megjelenes %}
             {% endfor %}
         </div>
         {% if site.data[section].expandable and site.data[section].entries.size > show_limit %}
         <div class="row-megjelenesek large-top-margin collapsible-content when-small">
             {% for megjelenes in site.data[section].entries offset:show_limit %}
-            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
-                {% if megjelenes.link %}
-                <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                    <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                    <div>{{megjelenes.cim}}</div>
-                </a>
-                <div>{{megjelenes.kiadas}}</div>
-                {% endif %}
-                {% if megjelenes.embed %}
-                <div class="embed-container">
-                    <iframe src={{megjelenes.embed}} allowfullscreen></iframe>
-                </div>
-                <div class="megjelenes-link">{{megjelenes.cim}}</div>
-                <div>{{megjelenes.kiadas}}</div>
-                {% endif %}
-            </div>
+            {% include megjelenes.html megjelenes=megjelenes %}
             {% endfor %}
         </div>
         <button class="collapsible-toggler when-small">
@@ -200,22 +168,6 @@
         <div class="row-megjelenesek large-top-margin when-large">
             {% for megjelenes in site.data[section].entries %}
             {% include megjelenes.html megjelenes=megjelenes %}
-            <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
-                {% if megjelenes.link %}
-                <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
-                    <img class=" megjelenes-kep" src={{megjelenes.kep_link}} />
-                    <div>{{megjelenes.cim}}</div>
-                </a>
-                <div>{{megjelenes.kiadas}}</div>
-                {% endif %}
-                {% if megjelenes.embed %}
-                <div class="embed-container">
-                    <iframe src={{megjelenes.embed}} allowfullscreen></iframe>
-                </div>
-                <div class="megjelenes-link">{{megjelenes.cim}}</div>
-                <div>{{megjelenes.kiadas}}</div>
-                {% endif %}
-            </div>
             {% endfor %}
         </div>
 
