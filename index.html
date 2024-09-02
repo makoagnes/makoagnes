@@ -199,7 +199,7 @@
 
         <div class="row-megjelenesek large-top-margin when-large">
             {% for megjelenes in site.data[section].entries %}
-            {% include megjelenes.html id="{{megjelenes.id}}" cim="{{megjelenes.cim}}" kiadas="{{megjelenes.kiadas}}" link="{{megjelenes.link}}" kep_link="{{megjelenes.kep_link}}" embed="{{megjelenes.embed}}" %}
+            {% include megjelenes.html megjelenes=megjelenes %}
             <div class="text-center font-1em addressable" id="{{megjelenes.id}}">
                 {% if megjelenes.link %}
                 <a class="megjelenes-link" href={{megjelenes.link}} target=”_blank”>
