@@ -1,0 +1,19 @@
+---
+---
+
+<div class="text-center font-1em addressable" id="{{include.id}}">
+    {% if include.link %}
+    <a class="megjelenes-link" href={{include.link}} target=”_blank”>
+        <img class=" megjelenes-kep" src={{include.kep_link}} />
+        <div>{{include.cim}}</div>
+    </a>
+    <div>{{include.kiadas}}</div>
+    {% endif %}
+    {% if include.embed %}
+    <div class="embed-container">
+        <iframe src={{include.embed}} allowfullscreen></iframe>
+    </div>
+    <div class="megjelenes-link">{{include.cim}}</div>
+    <div>{{include.kiadas}}</div>
+    {% endif %}
+</div>
