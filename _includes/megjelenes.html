@@ -1,19 +1,19 @@
 ---
 ---
 
-<div class="text-center font-1em addressable" id="{{include.id}}">
-    {% if include.link %}
-    <a class="megjelenes-link" href={{include.link}} target=”_blank”>
-        <img class=" megjelenes-kep" src={{include.kep_link}} />
-        <div>{{include.cim}}</div>
+<div class="text-center font-1em addressable" id="{{include.megjelenes.id}}">
+    {% if include.megjelenes.link %}
+    <a class="megjelenes-link" href={{include.megjelenes.link}} target=”_blank”>
+        <img class=" megjelenes-kep" src={{include.megjelenes.kep_link}} />
+        <div>{{include.megjelenes.cim}}</div>
     </a>
-    <div>{{include.kiadas}}</div>
+    <div>{{include.megjelenes.kiadas}}</div>
     {% endif %}
-    {% if include.embed %}
+    {% if include.megjelenes.embed %}
     <div class="embed-container">
-        <iframe src={{include.embed}} allowfullscreen></iframe>
+        <iframe src={{include.megjelenes.embed}} allowfullscreen></iframe>
     </div>
-    <div class="megjelenes-link">{{include.cim}}</div>
-    <div>{{include.kiadas}}</div>
+    <div class="megjelenes-link">{{include.megjelenes.cim}}</div>
+    <div>{{include.megjelenes.kiadas}}</div>
     {% endif %}
 </div>
