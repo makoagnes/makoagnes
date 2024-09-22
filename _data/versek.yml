@@ -1,6 +1,11 @@
 title: Versek
 expandable: true
 entries:
+- cim: Csak két napra megyünk; A fogkefe
+  id: csak_ket_napra_fogkefe
+  link: https://nepszava.hu/3237025_mako-agnes-versei
+  kep_link: assets/megjelenesek/csak_ket_napra_fogkefe.jpg
+  kiadas: Népszava, Nyitott mondat, 2024. június
 - cim: Eltűnni
   id: eltunni
   link: https://ligetmuhely.com/liget/mako-agnes-eltunni/
