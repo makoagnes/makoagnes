@@ -1,6 +1,11 @@
 title: Mesék
 expandable: true
 entries:
+- cim: Mocsó
+  id: mocso
+  link: https://ligetmuhely.com/szitakoto/mako-agnes-mocso/
+  kep_link: assets/megjelenesek/mocso.jpg
+  kiadas: Szitakötő, 2024. szeptember
 - cim: Az elvarázsolt körforgalom
   id: elvarazsolt-korforgalom
   link: https://ligetmuhely.com/szitakoto/mako-agnes-az-elvarazsolt-korforgalom/
