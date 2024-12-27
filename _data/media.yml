@@ -1,10 +1,20 @@
 title: Média
 expandable: false
 entries:
+- cim: Makó Ágnes&#58; Lobogni fog (kritika)
+  id: lobogni_fog_magyarnarancs_kritika
+  link: https://magyarnarancs.hu/visszhang/mako-agnes-lobogni-fog-272459
+  kep_link: assets/megjelenesek/magyarnarancs_logo.png
+  kiadas: Magyar Narancs, 2024. november
+- cim: Szabadság utáni légzésvágy (kritika)
+  id: loboni_fog_alfold_kritika
+  link: https://alfoldonline.hu/2024/10/szabadsag-utani-legzesvagy/
+  kep_link: assets/megjelenesek/alfold_logo.png
+  kiadas: Alföld Online, 2024. október
 - cim: Makó Ágnes&#58; A részvétel nem önkéntes (kritika)
   id: reszvetel_kritika
   link: https://magyarnarancs.hu/visszhang/mako-agnes-a-reszvetel-nem-onkentes-261094
-  kep_link: assets/megjelenesek/magyarnarancs_logo.jpg
+  kep_link: assets/megjelenesek/magyarnarancs_logo.png
   kiadas: Magyar Narancs, 2023. augusztus
 - cim: Nem kedveli a rizsázást - Makó Ágnessel a részvétel önkéntességéről (interjú)
   id: nepszava_interju
