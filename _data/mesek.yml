@@ -2,9 +2,9 @@ title: Mesék
 expandable: true
 entries:
 - cim: A kétbalkezes boszorkány
-  id: boszorkany
+  id: ketbalkezes_boszorkany
   link: https://ligetmuhely.com/szitakoto/mako-agnes-a-ketbalkezes-boszorkany/
-  kep_link: assets/megjelenesek/boszorkany.jpg
+  kep_link: assets/megjelenesek/ketbalkezes_boszorkany.jpg
   kiadas: Szitakötő, 2024. december
 - cim: Mocsó
   id: mocso
