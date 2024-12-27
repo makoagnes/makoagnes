@@ -1,6 +1,31 @@
 title: Versek
 expandable: true
 entries:
+- cim: A torony
+  id: torony
+  link: https://ligetmuhely.com/liget/mako-agnes-a-torony/
+  kep_link: assets/megjelenesek/torony.jpg
+  kiadas: Liget, 2024. december
+- cim: Ne félj
+  id: ne_felj
+  link: https://ligetmuhely.com/liget/mako-agnes-ne-felj/
+  kep_link: assets/megjelenesek/ne_felj.jpg
+  kiadas: Liget, 2024. október
+- cim: Fapofa
+  id: fapofa
+  link: https://ligetmuhely.com/liget/mako-agnes-fapofa/
+  kep_link: assets/megjelenesek/fapofa.jpg
+  kiadas: Liget, 2024. október
+- cim: Bújócska
+  id: bujocska
+  link: https://ligetmuhely.com/liget/mako-agnes-bujocska/
+  kep_link: assets/megjelenesek/bujocska.jpg
+  kiadas: Liget, 2024. október
+- cim: Cukor
+  id: cukor
+  link: https://ligetmuhely.com/liget/mako-agnes-cukor/
+  kep_link: assets/megjelenesek/cukor.jpg
+  kiadas: Liget, 2024. szeptember
 - cim: Csak két napra megyünk; A fogkefe
   id: csak_ket_napra_fogkefe
   link: https://nepszava.hu/3237025_mako-agnes-versei
