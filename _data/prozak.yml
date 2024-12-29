@@ -1,6 +1,16 @@
 title: Prózák
 expandable: true
 entries:
+- cim: Egy hosszú év a Föld bolygón
+  id: hosszuev
+  link: https://nepszava.hu/3262590_mako-agnes-egy-hosszu-ev-a-fold-bolygon
+  kep_link: assets/megjelenesek/hosszuev.jpg
+  kiadas: Népszava, Nyitott mondat, 2024. december
+- cim: Legyek
+  id: legyek
+  link: https://www.kortarsfolyoirat.hu/wp-content/uploads/pdf/kortars202024_12_jav20oszk.pdf
+  kep_link: assets/megjelenesek/legyek.jpg
+  kiadas: Kortárs, 2024. december
 - cim: Jean-Jacques Saboteur, a hétpróbás olimpikon
   id: hetprobas
   link: https://nepszava.hu/3245883_mako-agnes-jean-jacques-saboteur-a-hetprobas-olimpikon
