@@ -1,6 +1,16 @@
 title: Prózák
 expandable: true
 entries:
+- cim: A Foglárok Kedvence
+  id: foglarok_kedvence
+  link: https://nepszava.hu/3273653_mako-agnes-a-foglarok-kedvence
+  kep_link: assets/megjelenesek/foglarok_kedvence.jpg
+  kiadas: Népszava, Nyitott mondat, 2025. március
+- cim: Reprio
+  id: reprio
+  link: http://ujnautilus.info/reprio
+  kep_link: assets/megjelenesek/reprio.jpg
+  kiadas: ÚjNautilus, 2025. március
 - cim: Egy hosszú év a Föld bolygón
   id: hosszuev
   link: https://nepszava.hu/3262590_mako-agnes-egy-hosszu-ev-a-fold-bolygon
