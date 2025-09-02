@@ -2,7 +2,7 @@ title: Prózák
 expandable: true
 entries:
 - cim: Száz százalék kókusz; Sűrű napok
-  id: szaz_szazalek_kokusz
+  id: szaz-szazalek-kokusz
   link: https://www.helikon.ro/bejegyzesek/szaz-szazalek-kokusz
   kep_link: assets/megjelenesek/szaz_szazalek_kokusz.jpg
   kiadas: Helikon, 2025. április
@@ -41,6 +41,11 @@ entries:
   link: https://www.irodalmijelen.hu/2024-feb-15-1000/cetlik
   kep_link: assets/megjelenesek/cetlik.jpg
   kiadas: Irodalmi Jelen, 2024. február
+- cim: A mai valóságom; Átvilágítva
+  id: mai-valosag
+  link: https://epa.oszk.hu/03400/03420/00085/pdf/EPA03420_szekelyfold_2024_01_062-065.pdf
+  kep_link: assets/megjelenesek/szekelyfold_24jan.jpg
+  kiadas: Székelyföld, 2024. január
 - cim: Hajsza a Kék gyémánt után (krimistaféta)
   id: kek-gyemant
   link: https://nepszava.hu/3218623_hajsza-a-kek-gyemant-utan-krimistafeta
