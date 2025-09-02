@@ -1,6 +1,11 @@
 title: Versek
 expandable: true
 entries:
+- cim: Kicsit még maradok
+  id: kicsit-meg-maradok
+  link: https://ligetmuhely.com/liget/mako-agnes-kicsit-meg-maradok/
+  kep_link: assets/megjelenesek/kicsit_meg_maradok.jpg
+  kiadas: Liget, 2025. július
 - cim: Nincsenek rá
   id: nincsenekra
   link: https://orszagut.com/szepirodalom/nincsenek-ra-mako-agnes-verse-7887
@@ -96,6 +101,11 @@ entries:
   link: https://epa.oszk.hu/03100/03134/00052/pdf/EPA03134_2000_2022_2_57-61.pdf
   kep_link: assets/megjelenesek/gozfurdo.jpg
   kiadas: 2000, 2022. december
+- cim: Lelépek; Menetrend szerint; Kibaszott királylány
+  id: lelepek-menetrend-kiralylany
+  link: https://epa.oszk.hu/03700/03714/00029/pdf/EPA03714_parnasszus_2022_5_091-123.pdf#page=12
+  kep_link: assets/megjelenesek/Parnasszus-2022-5.jpg
+  kiadas: Parnasszus, 2022. október
 - cim: Felnőni
   id: felnoni
   link: https://www.facebook.com/103857835157182/photos/a.106244928251806/324285286447768/
