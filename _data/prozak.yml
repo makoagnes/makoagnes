@@ -1,6 +1,11 @@
 title: Prózák
 expandable: true
 entries:
+- cim: A hallgatás mögötti hallgatás
+  id: hallgatas_mogotti
+  link: https://ligetmuhely.com/liget/mako-agnes-a-hallgatas-mogotti-hallgatas/
+  kep_link: assets/megjelenesek/hallgatas_mogotti.jpg
+  kiadas: Liget, 2025. november
 - cim: Száz százalék kókusz; Sűrű napok
   id: szaz-szazalek-kokusz
   link: https://www.helikon.ro/bejegyzesek/szaz-szazalek-kokusz
