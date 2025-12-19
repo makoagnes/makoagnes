@@ -1,8 +1,28 @@
 title: Versek
 expandable: true
 entries:
+- cim: Jel
+  id: jel
+  link: https://szitakoto.com/mako-agnes-jel/
+  kep_link: assets/megjelenesek/jel.jpg
+  kiadas: Szitakötő, 2025. december
+- cim: Zacskót a fejre
+  id: zacskot
+  link: https://ligetmuhely.com/liget/mako-agnes-zacskot-a-fejre/
+  kep_link: assets/megjelenesek/zacskot.jpg
+  kiadas: Liget, 2025. október
+- cim: Nézz fel
+  id: nezz_fel
+  link: https://ligetmuhely.com/liget/mako-agnes-nezz-fel/
+  kep_link: assets/megjelenesek/nezz_fel.jpg
+  kiadas: Liget, 2025. október
+- cim: Kicsi, de túl nagy
+  id: kicsi_de_tul_nagy
+  link: https://szitakoto.com/kicsi-de-tul-nagy/
+  kep_link: assets/megjelenesek/kicsi_de_tul_nagy.jpg
+  kiadas: Szitakötő, 2025. szeptember
 - cim: Kicsit még maradok
-  id: kicsit-meg-maradok
+  id: kicsit_meg_maradok
   link: https://ligetmuhely.com/liget/mako-agnes-kicsit-meg-maradok/
   kep_link: assets/megjelenesek/kicsit_meg_maradok.jpg
   kiadas: Liget, 2025. július
