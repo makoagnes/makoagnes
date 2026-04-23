@@ -1,6 +1,26 @@
 title: Versek
 expandable: true
 entries:
+- cim: Most vasárnap
+  id: most-vasarnap
+  link: https://nepszava.hu/3317969_kolteszet-napi-vizvalaszto-viziok
+  kep_link: assets/megjelenesek/most_vasarnap.jpg
+  kiadas: Népszava, Nyitott mondat, 2026. április
+- cim: Jobb híján
+  id: jobb-hijan
+  link: https://nepszava.hu/3317376_mako-agnes-jobb-hijan
+  kep_link: assets/megjelenesek/jobb_hijan.jpg
+  kiadas: Népszava, Nyitott mondat, 2026. április
+- cim: Lehet belőle bármi
+  id: lehet-belole-barmi
+  link: https://szitakoto.com/mako-agnes-lehet-belole-barmi/
+  kep_link: assets/megjelenesek/lehet_belole_barmi.jpg
+  kiadas: Szitakötő, 2026. március
+- cim: Mandarinvirágok
+  id: mandarinvirágok
+  link: https://www.nincs.online/post/mandarinvir%C3%A1gok
+  kep_link: assets/megjelenesek/mandarinvirágok.jpg
+  kiadas: Nincs Online, 2026. március
 - cim: Jel
   id: jel
   link: https://szitakoto.com/mako-agnes-jel/
@@ -17,22 +37,22 @@ entries:
   kep_link: assets/megjelenesek/zacskot.jpg
   kiadas: Liget, 2025. október
 - cim: Nézz fel
-  id: nezz_fel
+  id: nezz-fel
   link: https://ligetmuhely.com/liget/mako-agnes-nezz-fel/
   kep_link: assets/megjelenesek/nezz_fel.jpg
   kiadas: Liget, 2025. október
 - cim: Kicsi, de túl nagy
-  id: kicsi_de_tul_nagy
+  id: kicsi-de-tul-nagy
   link: https://szitakoto.com/kicsi-de-tul-nagy/
   kep_link: assets/megjelenesek/kicsi_de_tul_nagy.jpg
   kiadas: Szitakötő, 2025. szeptember
 - cim: Kicsit még maradok
-  id: kicsit_meg_maradok
+  id: kicsit-meg-maradok
   link: https://ligetmuhely.com/liget/mako-agnes-kicsit-meg-maradok/
   kep_link: assets/megjelenesek/kicsit_meg_maradok.jpg
   kiadas: Liget, 2025. július
 - cim: Nincsenek rá
-  id: nincsenekra
+  id: nincsenek-ra
   link: https://orszagut.com/szepirodalom/nincsenek-ra-mako-agnes-verse-7887
   kep_link: assets/megjelenesek/nincsenekra.jpg
   kiadas: Országút, 2025. május
@@ -47,7 +67,7 @@ entries:
   kep_link: assets/megjelenesek/torony.jpg
   kiadas: Liget, 2024. december
 - cim: Ne félj
-  id: ne_felj
+  id: ne-felj
   link: https://ligetmuhely.com/liget/mako-agnes-ne-felj/
   kep_link: assets/megjelenesek/ne_felj.jpg
   kiadas: Liget, 2024. október
@@ -67,7 +87,7 @@ entries:
   kep_link: assets/megjelenesek/cukor.jpg
   kiadas: Liget, 2024. szeptember
 - cim: Csak két napra megyünk; A fogkefe
-  id: csak_ket_napra_fogkefe
+  id: csak-ket-napra-fogkefe
   link: https://nepszava.hu/3237025_mako-agnes-versei
   kep_link: assets/megjelenesek/csak_ket_napra_fogkefe.jpg
   kiadas: Népszava, Nyitott mondat, 2024. június
@@ -87,7 +107,7 @@ entries:
   kep_link: assets/megjelenesek/nem_mentomelleny.jpg
   kiadas: SZIFONline, 2024. március
 - cim: Belekap a szél; Katt
-  id: belekap_katt
+  id: belekap-katt
   link: https://nepszava.hu/3227706_mako-agnes-versei
   kep_link: assets/megjelenesek/belekap_katt.jpg
   kiadas: Népszava, Nyitott mondat, 2024. március
@@ -147,7 +167,7 @@ entries:
   kep_link: assets/megjelenesek/felkoszontetlenul.jpg
   kiadas: Liget, 2022. január
 - cim: Egyszerre; Zsíroldás
-  id: egyszerre--zsiroldas
+  id: egyszerre-zsiroldas
   link: https://epa.oszk.hu/03700/03714/00024/pdf/EPA03714_parnasszus_2021_4_79-81.pdf
   kep_link: assets/megjelenesek/Parnasszus-2021-4.jpg
   kiadas: Parnasszus, 2021. december  
