@@ -1,6 +1,11 @@
 title: Prózák
 expandable: true
 entries:
+- cim: Munkarend
+  id: munkarend
+  link: http://ujnautilus.info/munkarend
+  kep_link: assets/megjelenesek/munkarend.jpg
+  kiadas: ÚjNautilus, 2026. április
 - cim: A hallgatás mögötti hallgatás
   id: hallgatas_mogotti
   link: https://ligetmuhely.com/liget/mako-agnes-a-hallgatas-mogotti-hallgatas/
