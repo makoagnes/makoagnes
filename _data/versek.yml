@@ -136,6 +136,11 @@ entries:
   link: https://ligetmuhely.com/liget/mako-agnes-gombok/
   kep_link: assets/megjelenesek/gombok.jpg
   kiadas: Liget, 2023. december
+- cim: Teherán; Szégyen
+  id: teheran_szegyen
+  link: https://epa.oszk.hu/03700/03714/00036/pdf/EPA03714_parnasszus_2023_6_101-103.pdf
+  kep_link: assets/megjelenesek/Parnasszus-2023-6.jpg
+  kiadas: Parnasszus, 2023. december
 - cim: Ózonfürdő
   id: ozonfurdo
   link: https://ligetmuhely.com/liget/mako-agnes-ozonfurdo/
