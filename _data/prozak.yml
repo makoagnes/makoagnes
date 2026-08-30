@@ -1,13 +1,17 @@
 title: Prózák
 expandable: true
 entries:
+- cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam 18. fejezet&#41;
+  id: tegnaputan18
+  link: https://ligetmuhely.com/mako-agnes-tegnaputan-18/
+  kep_link: assets/megjelenesek/tegnaputan18.jpeg
 - cim: Mindig más volna jó
   id: mindig_mas_volna_jo
   link: https://ligetmuhely.com/mako-agnes-mindig-mas-volna-jo/
   kep_link: assets/megjelenesek/mindig_mas_volna_jo.jpeg
   kiadas: Liget, 2026. július
-- cim: Az alku Tegnapután c. regényfolyam 9. fejezet
-  id: alku
+- cim: Az alku &#40;Tegnapután c. regényfolyam 9. fejezet&#41;
+  id: tegnaputan9
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-8/
   kep_link: assets/megjelenesek/tegnaputan9.jpeg
   kiadas: Liget, 2026. június
@@ -15,7 +19,7 @@ entries:
   id: munkarend
   link: http://ujnautilus.info/munkarend
   kep_link: assets/megjelenesek/munkarend.jpg
-  kiadas: ÚjNautilus, 2026. április
+  kiadas: ÚjNautilus, 2026. á
 - cim: A hallgatás mögötti hallgatás
   id: hallgatas_mogotti
   link: https://ligetmuhely.com/liget/mako-agnes-a-hallgatas-mogotti-hallgatas/
