@@ -57,6 +57,7 @@ sections:
   - prozak
   - versek
   - mesek
+  - egyeb
   - media
 
 # Build settings
