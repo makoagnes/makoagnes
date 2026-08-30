@@ -4,12 +4,12 @@ entries:
 - cim: Egy adag levegő
   id: egy_adag_levego
   link: https://ligetmuhely.com/mako-agnes-egy-adag-levego/
-  kep_link: assets/megjelenesek/egy_adag_levego.jpeg
+  kep_link: assets/megjelenesek/egy_adag_levego.jpg
   kiadas: Liget, 2026. július
 - cim: Nagyon kellene
   id: nagyon_kellene
   link: https://ligetmuhely.com/mako-agnes-nagyon-kellene/
-  kep_link: assets/megjelenesek/nagyon_kellene.jpeg
+  kep_link: assets/megjelenesek/nagyon_kellene.jpg
   kiadas: Liget, 2026. június
 - cim: Most vasárnap
   id: most-vasarnap
