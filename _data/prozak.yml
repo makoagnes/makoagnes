@@ -13,13 +13,13 @@ entries:
 - cim: Az alku &#40;Tegnapután c. regényfolyam 9. fejezet&#41;
   id: tegnaputan9
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-8/
-  kep_link: assets/megjelenesek/tegnaputan9.jpeg
+  kep_link: assets/megjelenesek/tegnaputan9.jpg
   kiadas: Liget, 2026. június
 - cim: Munkarend
   id: munkarend
   link: http://ujnautilus.info/munkarend
   kep_link: assets/megjelenesek/munkarend.jpg
-  kiadas: ÚjNautilus, 2026. á
+  kiadas: ÚjNautilus, 2026. április
 - cim: A hallgatás mögötti hallgatás
   id: hallgatas_mogotti
   link: https://ligetmuhely.com/liget/mako-agnes-a-hallgatas-mogotti-hallgatas/
