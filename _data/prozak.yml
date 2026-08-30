@@ -1,7 +1,7 @@
 title: Prózák
 expandable: true
 entries:
-- cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam 18. fejezet&#41;
+- cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam, 18. fejezet&#41;
   id: tegnaputan18
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-18/
   kep_link: assets/megjelenesek/tegnaputan18.jpeg
@@ -10,7 +10,7 @@ entries:
   link: https://ligetmuhely.com/mako-agnes-mindig-mas-volna-jo/
   kep_link: assets/megjelenesek/mindig_mas_volna_jo.jpeg
   kiadas: Liget, 2026. július
-- cim: Az alku &#40;Tegnapután c. regényfolyam 9. fejezet&#41;
+- cim: Az alku &#40;Tegnapután c. regényfolyam, 9. fejezet&#41;
   id: tegnaputan9
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-8/
   kep_link: assets/megjelenesek/tegnaputan9.jpg
@@ -70,7 +70,7 @@ entries:
   link: https://epa.oszk.hu/03400/03420/00085/pdf/EPA03420_szekelyfold_2024_01_062-065.pdf
   kep_link: assets/megjelenesek/szekelyfold_24jan.jpg
   kiadas: Székelyföld, 2024. január
-- cim: Hajsza a Kék gyémánt után (krimistaféta)
+- cim: Hajsza a Kék gyémánt után &#40;krimistaféta, 2. rész&#41;
   id: kek-gyemant
   link: https://nepszava.hu/3218623_hajsza-a-kek-gyemant-utan-krimistafeta
   kep_link: assets/megjelenesek/kek_gyemant.jpg
@@ -155,7 +155,7 @@ entries:
   link: https://epa.oszk.hu/03300/03335/00148/pdf/EPA03335_pannon_tukor_2021_3_024-026.pdf
   kep_link: assets/megjelenesek/pannontukor1.jpg
   kiadas: Pannon Tükör, 2021. május
-- cim: Újjászületési valószínűség &#40;A világháború küszöbén c. regényfolyam 8. fejezet&#41;
+- cim: Újjászületési valószínűség &#40;A világháború küszöbén c. regényfolyam, 8. fejezet&#41;
   id: ujjaszuletesi_valoszinuseg
   link: https://ligetmuhely.com/ujjaszuletesi-valoszinuseg/
   kep_link: assets/megjelenesek/ujjaszuletesi_valoszinuseg.jpg
