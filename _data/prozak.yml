@@ -1,6 +1,10 @@
 title: Prózák
 expandable: true
 entries:
+- cim: Snow White &#40;in English&#41;
+  id: snowwhite
+  link: https://pshares.org/product/winter-2025-26/
+  kep_link: assets/megjelenesek/ploughshares.jpg
 - cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam, 18. fejezet&#41;
   id: tegnaputan18
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-18/
