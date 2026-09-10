@@ -4,7 +4,7 @@ entries:
 - cim: Kontroll
   id: kontroll
   link: https://ligetmuhely.com/mako-agnes-kontroll/
-  kep_link: assets/megjelenesek/kontroll.jpeg
+  kep_link: assets/megjelenesek/kontroll.jpg
   kiadas: Liget, 2026. szeptember
 - cim: Őszillat
   id: oszillat
