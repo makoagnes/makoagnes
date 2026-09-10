@@ -1,6 +1,10 @@
 title: Média
 expandable: false
 entries:
+- cim: Most vasárnap (versfelolvasás)
+  id: most_vasarnap_video
+  embed: https://tegnap.ma/2026/07/27/proza-mako-agnes-most-vasarnap/
+  kiadas: PEN Club felolvasás, 2026
 - cim: Makó Ágnes&#58; Lobogni fog (kritika)
   id: lobogni_fog_magyarnarancs_kritika
   link: https://magyarnarancs.hu/visszhang/mako-agnes-lobogni-fog-272459
