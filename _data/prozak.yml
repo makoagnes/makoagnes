@@ -31,6 +31,11 @@ entries:
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-8/
   kep_link: assets/megjelenesek/tegnaputan9.jpg
   kiadas: Liget, 2026. június
+- cim: Feladatlista
+  id: feladatlista
+  link: https://ujnautilus.info/feladatlista
+  kep_link: assets/megjelenesek/feladatlista.jpg
+  kiadas: ÚjNautilus, 2026. június
 - cim: Munkarend
   id: munkarend
   link: http://ujnautilus.info/munkarend
