@@ -1,6 +1,16 @@
 title: Versek
 expandable: true
 entries:
+- cim: Teljes szabadság
+  id: teljes_szabadsag
+  link: https://orszagut.com/szepirodalom/mit-gondolt-a-kolto-15-mako-agnes-verse-10166
+  kep_link: assets/megjelenesek/teljes_szabadsag.jpg
+  kiadas: Országút, 2026. október
+- cim: Bilincs
+  id: bilincs
+  link: https://ligetmuhely.com/mako-agnes-bilincs/
+  kep_link: assets/megjelenesek/bilincs.jpg
+  kiadas: Liget, 2026. október
 - cim: Kontroll
   id: kontroll
   link: https://ligetmuhely.com/mako-agnes-kontroll/
