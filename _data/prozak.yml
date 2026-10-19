@@ -6,6 +6,16 @@ entries:
   link: https://pshares.org/product/winter-2025-26/
   kep_link: assets/megjelenesek/ploughshares.jpg
   kiadas: Ploughshares, 2026. január
+- cim: Medúzatestű bébibálna
+  id: meduzatestu_bebibalna
+  link: https://ligetmuhely.com/mako-agnes-meduzatestu-bebibalna/
+  kep_link: assets/megjelenesek/meduzatestu_bebibalna.jpeg
+  kiadas: Liget, 2026. szeptember
+- cim: Jurop
+  id: jurop
+  link: https://tiszatajonline.hu/irodalom/jurop/
+  kep_link: assets/megjelenesek/jurop.jpeg
+  kiadas: Tiszatájonline, 2026. szeptember
 - cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam, 18. fejezet&#41;
   id: tegnaputan18
   link: https://ligetmuhely.com/mako-agnes-tegnaputan-18/
@@ -155,7 +165,7 @@ entries:
   id: pezsgobuborekok
   link: https://tiszatajonline.hu/irodalom/pezsgobuborekok/
   kep_link: assets/megjelenesek/pezsgo.jpg
-  kiadas: Tiszatáj online, 2022. január
+  kiadas: Tiszatájonline, 2022. január
 - cim: Dupla forgás; Leleplezés
   id: dupla-forgas--leleplezes
   link: https://epa.oszk.hu/03300/03335/00148/pdf/EPA03335_pannon_tukor_2021_3_024-026.pdf
