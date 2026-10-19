@@ -14,7 +14,7 @@ entries:
 - cim: Jurop
   id: jurop
   link: https://tiszatajonline.hu/irodalom/jurop/
-  kep_link: assets/megjelenesek/jurop.jpeg
+  kep_link: assets/megjelenesek/jurop.jpg
   kiadas: Tiszatájonline, 2026. szeptember
 - cim: A mesének még nincs vége &#40;Tegnapután c. regényfolyam, 18. fejezet&#41;
   id: tegnaputan18
